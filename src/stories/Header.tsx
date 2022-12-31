@@ -1,7 +1,7 @@
-import React from "react";
+/* eslint-disable formatjs/no-literal-string-in-jsx */
+import "./header.css";
 
 import { Button } from "./Button";
-import "./header.css";
 
 interface User {
   name: string;

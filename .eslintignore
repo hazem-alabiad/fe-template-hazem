@@ -1,4 +1,8 @@
 # vite
 vite.config.ts
-src/vite-env.d.ts
-package.json
+vite-env.d.ts
+
+# general
+dist
+node_modules
+coverage

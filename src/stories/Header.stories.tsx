@@ -1,5 +1,5 @@
+import { type ComponentMeta, type ComponentStory } from "@storybook/react";
 import React from "react";
-import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Header } from "./Header";
 

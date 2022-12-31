@@ -1,6 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+/* eslint-disable formatjs/no-literal-string-in-jsx */
 import "./App.css";
+
+import { useState } from "react";
+
+import reactLogo from "./assets/react.svg";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -16,8 +19,14 @@ const App = () => {
         </a>
       </div>
       <h1>Vite + React</h1>
+
       <div className="card">
-        <button onClick={() => setCount((newCount) => newCount + 1)}>
+        <button
+          type="button"
+          onClick={() => {
+            setCount((newCount) => newCount + 1);
+          }}
+        >
           count is {count}
         </button>
         <p>
