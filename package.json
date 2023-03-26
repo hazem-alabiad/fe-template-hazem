@@ -1,5 +1,5 @@
 {
-  "name": "fe-template",
+  "name": "fe-template-hazem",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -37,7 +37,8 @@
     "build-storybook": "build-storybook",
     "chromatic": "chromatic",
     "extract-messages": "formatjs extract \"src/**/!(*.d|*.test).{js,jsx,ts,tsx}\" --ignore \"src/*.d.ts\" --out-file src/lang/temp_en.json --flatten --id-interpolation-pattern '[sha512:contenthash:base64:6]' && formatjs compile src/lang/temp_en.json --out-file src/lang/en.json && rm src/lang/temp_en.json",
-    "bundle-size": "vite-bundle-visualizer"
+    "bundle-size": "vite-bundle-visualizer",
+    "release": "standard-version"
   },
   "resolutions": {
     "styled-components": "^5"
@@ -90,6 +91,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.7",
+    "standard-version": "^9.5.0",
     "typescript": "^5.0.2",
     "vite": "^4.2.1",
     "vite-bundle-visualizer": "^0.6.0",
