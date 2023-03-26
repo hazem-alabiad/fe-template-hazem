@@ -22,10 +22,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "types": ["vitest/globals"]
   },
   "include": ["src", "vite-env.d.ts"],
   "references": [
