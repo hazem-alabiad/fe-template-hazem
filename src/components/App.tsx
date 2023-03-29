@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { ErrorElement } from "./components/ErrorElement";
-import { ROUTES } from "./constants/routes";
-import { HomePage } from "./features/HomePage";
+import { ROUTES } from "../constants/routes";
+import { HomePage } from "../features/HomePage";
+import { ErrorElement } from "./ErrorElement";
 
 export const App = () => (
   <RouterProvider
