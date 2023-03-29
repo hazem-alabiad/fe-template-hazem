@@ -22,9 +22,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals", "vite/client"]
   },
-  "include": ["src", "vite-env.d.ts"],
+  "include": ["src", ".storybook/*"],
   "references": [
     {
       "path": "./tsconfig.node.json"
