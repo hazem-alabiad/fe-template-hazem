@@ -1,7 +1,5 @@
 import "./button.css";
 
-import React from "react";
-
 interface ButtonProps {
   /**
    * is this the principal call to action on the page?
