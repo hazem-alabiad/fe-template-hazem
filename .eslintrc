@@ -39,7 +39,8 @@
     "formatjs",
     "prettier",
     "unused-imports",
-    "simple-import-sort"
+    "simple-import-sort",
+    "sort-keys-fix"
   ],
   "rules": {
     // -----------------------------------------------------
@@ -58,6 +59,7 @@
     "react/jsx-props-no-spreading": "off",
     "react/jsx-wrap-multilines": "off",
     "react/jsx-curly-newline": "off",
+    "react/jsx-sort-props": "error",
     // -----------------------------------------------------
     // TypeScript ------------------------------------------
     // -----------------------------------------------------
@@ -111,8 +113,12 @@
       }
     ],
     "import/order": "error",
-    "unused-imports/no-unused-imports": "error"
+    "unused-imports/no-unused-imports": "error",
+    "sort-keys-fix/sort-keys-fix": "error"
   },
+  // -----------------------------------------------------
+  // Overrides -------------------------------------------
+  // -----------------------------------------------------
   "overrides": [
     {
       "files": ["**/*.stories.ts", "**/*.stories.tsx"],
