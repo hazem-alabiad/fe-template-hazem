@@ -40,7 +40,8 @@
     "prettier",
     "unused-imports",
     "simple-import-sort",
-    "sort-keys-fix"
+    "sort-keys-fix",
+    "sort-destructure-keys"
   ],
   "rules": {
     // -----------------------------------------------------
@@ -114,7 +115,8 @@
     ],
     "import/order": "error",
     "unused-imports/no-unused-imports": "error",
-    "sort-keys-fix/sort-keys-fix": "error"
+    "sort-keys-fix/sort-keys-fix": "error",
+    "sort-destructure-keys/sort-destructure-keys": "error"
   },
   // -----------------------------------------------------
   // Overrides -------------------------------------------
