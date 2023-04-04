@@ -24,7 +24,7 @@
     "jsx": "react-jsx",
     "types": ["vitest/globals", "vite/client"]
   },
-  "include": ["src", ".storybook/*", "tests"],
+  "include": ["src", ".storybook", "tests", "*.config.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
