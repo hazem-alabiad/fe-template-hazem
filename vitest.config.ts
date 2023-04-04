@@ -6,9 +6,7 @@ export default defineConfig({
     environment: "jsdom",
     coverage: {
       all: true,
-      include: [
-        "src/{components,features}/**/*.{ts,tsx}",
-      ]
+      include: ["src/{components,features}/**/*.{ts,tsx}"],
     },
   },
 });

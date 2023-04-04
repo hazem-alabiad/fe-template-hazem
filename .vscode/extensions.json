@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    // linting & styling
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "jock.svg",
+
+    // better dev experience
+    "antfu.vite",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "aaron-bond.better-comments",
+    "naumovs.color-highlight",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "kisstkondoros.vscode-gutter-preview",
+    "bierner.markdown-preview-github-styles",
+    "ZixuanChen.vitest-explorer",
+    "abumalick.vscode-nvm",
+    "antfu.browse-lite"
+  ]
+}
