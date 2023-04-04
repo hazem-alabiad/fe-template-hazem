@@ -65,8 +65,8 @@ export const LocaleProvider = ({ children }: { children: ReactNode }) => {
     <LocalContext.Provider value={localeContextValue}>
       <IntlProvider
         key={locale}
-        locale={locale}
         defaultLocale={LOCALES.en}
+        locale={locale}
         messages={messages}
         onError={(error) => {
           // eslint-disable-next-line no-console

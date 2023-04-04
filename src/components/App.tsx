@@ -6,13 +6,13 @@ import { ErrorElement } from "./ErrorElement";
 
 export const App = () => (
   <RouterProvider
+    fallbackElement={<ErrorElement />}
     router={createBrowserRouter([
       {
-        path: ROUTES["/"],
         element: <HomePage />,
         errorElement: <ErrorElement />,
+        path: ROUTES["/"],
       },
     ])}
-    fallbackElement={<ErrorElement />}
   />
 );
