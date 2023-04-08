@@ -38,6 +38,8 @@
     "build-storybook": "build-storybook",
     "chromatic": "chromatic",
     "extract-messages": "formatjs extract \"src/**/!(*.d|*.test).{js,jsx,ts,tsx}\" --ignore \"src/*.d.ts\" --out-file src/lang/temp_en.json --flatten --id-interpolation-pattern '[sha512:contenthash:base64:6]' && formatjs compile src/lang/temp_en.json --out-file src/lang/en.json && rm src/lang/temp_en.json",
+    "sync-locales": "node \"./src/lang/syncLocales.cjs\"",
+    "locale": "yarn extract-messages & yarn sync-locales",
     "bundle-size": "vite-bundle-visualizer",
     "release": "standard-version"
   },
@@ -79,6 +81,7 @@
     "@vitest/coverage-c8": "^0.29.8",
     "@vitest/ui": "^0.29.8",
     "babel-loader": "^9.1.2",
+    "chalk": "4",
     "chromatic": "^6.17.2",
     "eslint": "^8.37.0",
     "eslint-config-airbnb": "^19.0.4",
