@@ -1,7 +1,7 @@
 {
   "name": "fe-template-hazem",
   "private": true,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "husky": {
     "hooks": {
