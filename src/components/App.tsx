@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { ROUTES } from "../constants/routes";
-import { HomePage } from "../features/HomePage";
+import { HomePage } from "../pages/HomePage/HomePage";
 import { ErrorElement } from "./ErrorElement";
 
 export const App = () => (

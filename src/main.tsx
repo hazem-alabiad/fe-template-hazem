@@ -4,7 +4,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import { ReactQueryDevtools } from "react-query/devtools";
 
 import { App } from "./components/App";
-import { LocaleProvider } from "./contexts/LocaleContext";
+import { LocaleProvider } from "./contexts/LocaleContext/LocaleContext";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
