@@ -2,7 +2,7 @@ import { render, type RenderOptions } from "@testing-library/react";
 import { type ReactElement, type ReactNode } from "react";
 import { IntlProvider } from "react-intl";
 
-import { type Locale } from "../contexts/LocaleContext";
+import { type Locale } from "../contexts/LocaleContext/LocaleContext";
 
 const AllTheProviders = ({
   children,
