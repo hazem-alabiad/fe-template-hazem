@@ -6,8 +6,6 @@
     "jock.svg",
 
     // better dev experience
-    "antfu.vite",
-    "usernamehw.errorlens",
     "streetsidesoftware.code-spell-checker",
     "aaron-bond.better-comments",
     "naumovs.color-highlight",

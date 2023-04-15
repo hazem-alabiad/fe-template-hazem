@@ -110,7 +110,13 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": ["**/*.stories.tsx", "**/*.test.*", "**/test/*", "*.config.ts"]
+        "devDependencies": [
+          "**/*.stories.tsx",
+          "**/*.test.*",
+          "**/test/*",
+          "*.config.ts",
+          ".storybook/*"
+        ]
       }
     ],
     "import/order": "error",
