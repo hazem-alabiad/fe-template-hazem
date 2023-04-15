@@ -10,6 +10,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:storybook/recommended",
+    "plugin:jest-dom/recommended",
+    "plugin:testing-library/react",
     "standard-with-typescript",
     "airbnb",
     "airbnb/hooks",
@@ -41,7 +43,9 @@
     "unused-imports",
     "simple-import-sort",
     "sort-keys-fix",
-    "sort-destructure-keys"
+    "sort-destructure-keys",
+    "jest-dom",
+    "testing-library"
   ],
   "rules": {
     // -----------------------------------------------------
