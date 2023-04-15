@@ -9,6 +9,9 @@ const preview: Preview = {
         date: /Date$/,
       },
     },
+    docs: {
+      source: { type: "code" },
+    },
     layout: "centered",
   },
 };
