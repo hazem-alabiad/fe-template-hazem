@@ -7,6 +7,7 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
     "@storybook/addon-docs",
+    "@storybook/addon-mdx-gfm",
   ],
   "docs": {
     "autodocs": true,
